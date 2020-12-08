@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import Form from './components/Form';
-import PalabraAlmacenada from './components/palabra';
+import Form from './components/form/form';
+import PalabraAlmacenada from './components/palabra/palabra';
 
 export default () =>(
 	<div className="App">

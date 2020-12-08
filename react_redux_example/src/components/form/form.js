@@ -1,8 +1,10 @@
+import React from 'react'
 import { modificaPalabra } from '../../store/palabra/actions';
 import {connect} from "react-redux";
 
 const Form = ({ modificaPalabra }) => {
-	const palabraRef = useRef(null);
+    //const palabraRef = useRef(null);
+    const palabraRef = React.createRef();
 	return (
         <div>
             <input ref={palabraRef} type="text" placeholder="La palabra"/>
